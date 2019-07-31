@@ -1,0 +1,110 @@
+body {
+  background-color: #FCFCFC;
+  font-family: 'Roboto', sans-serif;
+  color: #333 ;
+  font-size: 18px;
+  line-height: 20px;
+
+}
+
+h1, h3 {
+  font-size: 30px;
+  line-height: 20px;
+  color: #042f4b;
+}
+
+h2 {
+  font-size: 26px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+p {
+  font-weight: 300;
+}
+
+a {
+  color: #50b6bb;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3E64FF;
+  text-decoration: none;
+}
+
+.container{
+  width: 600px;
+  margin: 30px auto;
+
+}
+
+.list-inline {
+  padding-left:0;
+  list-style-type: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.card {
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 4px;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background-color: #FFFF;
+  border:1px solid #F8F8F8;
+  padding:20px;
+}
+
+.btn-blue {
+  display: block;
+  max-width:320px;
+  margin:30px auto;
+  padding: 15px 20px;
+  border-radius: 4px;
+  background-color: #042f4b;
+  color: white;
+}
+
+.btn-blue:hover {
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  color: #50b6bb
+}
+
+.fa-facebook-f, .fa-linkedin-in, .fa-twitter{
+  font-size:20px;
+}
+
+.fa-facebook-f:hover, .fa-linkedin-in:hover, .fa-twitter:hover{
+  color: #042f4b;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
